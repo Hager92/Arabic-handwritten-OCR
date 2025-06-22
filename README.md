@@ -1,35 +1,22 @@
-Arabic-handwritten-OCR
-This project focuses on developing an Optical Character Recognition (OCR) system for handwritten Arabic text. Recognizing Arabic handwriting is a challenging task due to the script’s cursive nature, contextual character shapes, and variability in individual handwriting styles.
+# Arabic-handwritten-OCR
 
-We explore and compare various OCR approaches:
+This project focuses on developing an Optical Character Recognition (OCR) system for handwritten Arabic text. Recognizing Arabic handwriting presents unique challenges due to the script’s cursive nature, positional character variations, and high variability in writing styles. Our work explores a combination of classical and deep learning-based methods to address these issues.
 
-Tesseract-based OCR
+## Project Overview
 
-Convolutional Neural Networks (CNN)
+We implemented and compared various techniques for Arabic handwritten OCR, including:
 
-Transfer Learning with ResNet50V2
+* Traditional OCR using Tesseract
+* Deep learning approaches using Convolutional Neural Networks (CNNs)
+* Transfer learning with ResNet50V2
+* Segmentation methods for improved recognition accuracy
+* Transformer-based OCR using TrOCR
 
-Transformer-based OCR (TrOCR)
+## Objectives
 
-📂 Contents
-ArabicOCR__1.ipynb: Initial Arabic handwriting recognition pipeline
-
-ArabicOCR__2.ipynb: Enhanced preprocessing and recognition workflow
-
-ResNet50V2_Transfer_Alpha.ipynb: Deep learning model using transfer learning (ResNet50V2)
-
-handwritten-ocr-trocr.ipynb: Transformer-based OCR model (TrOCR)
-
-pytesseract_OCR.ipynb: Tesseract OCR baseline
-
-README.md: Project documentation
-
-🎯 Objectives
-Build models capable of recognizing handwritten Arabic characters and words
-
-Compare OCR techniques based on accuracy and robustness
-
-Utilize state-of-the-art deep learning models like ResNet and TrOCR
+* Build a reliable system for recognizing handwritten Arabic text
+* Evaluate and compare the performance of different OCR approaches
+* Investigate the impact of segmentation techniques on recognition accuracy
 
 ## Contributors
 
