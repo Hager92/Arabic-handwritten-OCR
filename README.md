@@ -1,1 +1,1 @@
-# Arabic-handwritten-OCR-
+# Arabic-handwritten-OCR
